@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "LwsnITcnlCbC5RPYvkkjib/BN+t7TgIuyD/z7ZbWj6xdjTavCFGLN+peUnutcs/0iZcA/K01FcxQvYRxtN3QTA==",
+  "success": true,
+  "projectFilePath": "D:\\Учеба 4 курс\\Репозитории GitHub\\403902_opt_PuzyrenkoEkaterina\\App\\WebObogrev\\WebObogrev\\WebObogrev.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\google.ortools\\9.8.3296\\google.ortools.9.8.3296.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\google.ortools.runtime.linux-arm64\\9.8.3296\\google.ortools.runtime.linux-arm64.9.8.3296.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\google.ortools.runtime.linux-x64\\9.8.3296\\google.ortools.runtime.linux-x64.9.8.3296.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\google.ortools.runtime.osx-arm64\\9.8.3296\\google.ortools.runtime.osx-arm64.9.8.3296.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\google.ortools.runtime.osx-x64\\9.8.3296\\google.ortools.runtime.osx-x64.9.8.3296.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\google.ortools.runtime.win-x64\\9.8.3296\\google.ortools.runtime.win-x64.9.8.3296.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\google.protobuf\\3.25.0\\google.protobuf.3.25.0.nupkg.sha512"
+  ],
+  "logs": []
+}

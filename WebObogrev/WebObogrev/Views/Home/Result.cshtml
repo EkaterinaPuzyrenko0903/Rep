@@ -1,0 +1,86 @@
+﻿@model ResultModel
+@{
+    ViewData["Title"] = "Result";
+}
+<div id="main">
+    <h2 style="text-align:center">Расчетные данные</h2>
+    <header>
+        <p class="cell">Целевая функция: Z = @Math.Round(@Model.targetFunc,2)</p>
+    </header>
+
+    <div class="table">
+        <table class="table">
+            <thead class="tr">
+                <tr>
+                    <th style="text-align:center" rowspan="2">Номер агрегата</th>
+                    <th style="text-align:center" colspan="3">Теплотворная способность различных топлив при использовании его на агрегатах, МДж/т топлива</th>
+                </tr>
+                <tr>
+                    <td style="text-align:center">Топливо 1</td>
+                    <td style="text-align:center">Топливо 2</td>
+                    <td style="text-align:center">Топливо 3</td>
+                </tr>
+            </thead>
+            <tr>
+                <td style="text-align:center">1</td>
+                <td style="text-align:center">@Math.Round(@Model.XA1T1,2)</td>
+                <td style="text-align:center">@Math.Round(@Model.XA1T2,2)</td>
+                <td style="text-align:center">@Math.Round(@Model.XA1T3,2)</td>
+
+            </tr>
+            <tr>
+                <td style="text-align:center">2</td>
+                <td style="text-align:center">@Model.XA2T1</td>
+                <td style="text-align:center">@Model.XA2T2</td>
+                <td style="text-align:center">@Model.XA2T3</td>
+            </tr>
+            <tr>
+                <td style="text-align:center">3</td>
+                <td style ="text-align:center">@Model.XA3T1</td>
+                <td style="text-align:center">@Model.XA3T2</td>
+                <td style="text-align:center">@Model.XA3T3</td>
+            </tr>
+            <tr>
+                <td style="text-align:center">4</td>
+                <td style="text-align:center">@Model.XA4T1</td>
+                <td style="text-align:center">@Model.XA4T2</td>
+                <td style="text-align:center">@Model.XA4T3</td>
+            </tr>
+
+        </table>
+       
+    </div>
+</div>
+<div class="canvas">
+    <h2 style="text-align:center">
+        Теплотворная способность различных топлив при использовании его на агрегатах, МДж/т топлива
+    </h2>
+    <canvas id="myChart"></canvas>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.js"></script>
+    
+</div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    const ctx = document.getElementById('myChart');
+
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['A1T1', 'A1T2', 'A1T3', 'A2T1', 'A2T2', 'A2T3', 'A3T1', 'A3T2', 'A3T3', 'A4T1', 'A4T2', 'A4T3'],
+            datasets: [{
+                label: 'Теплотворная способность, МДж/т',
+                backgroundColor: ["#3e95cd", "#8e5ea2", "#3cba9f", "#e8c3b9", "#c45850"],
+                data: [@Model.XA1T1, @Model.XA1T2, @Model.XA1T3, @Model.XA2T1, @Model.XA2T2, @Model.XA2T3, @Model.XA3T1, @Model.XA3T2, @Model.XA3T3, @Model.XA4T1, @Model.XA4T2, @Model.XA4T3]
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+           
+        }
+    });
+</script>
+
