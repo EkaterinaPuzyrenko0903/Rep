@@ -1,0 +1,36 @@
+﻿@model HomePlanViewModel
+@{
+    ViewData["Title"] = "Добавление филиала в справочник";
+}
+
+<form action="/Home/BranchInputResult" method="post">
+    Код филиала:
+    <input name="NumberBranch" type="number" value="@Model.Branch?.NumberBranch" autocomplete="off" />
+    Название филиала :
+    <input name="NameBranch" type="text" value="@Model.Branch?.NameBranch" autocomplete="off" />
+    <button type="submit">Добавить</button>
+</form>
+<br />
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>Код филиала</th>
+            <th>Название филиала</th>
+        </tr>
+    </thead>
+    
+
+    @foreach (var variant in Model.Branches)
+    {
+        <tr>
+            <td>@variant.NumberBranch</td>
+            <td>@variant.NameBranch</td>
+            <td>
+
+                <a class="color" href="/Home/RemoveBranch/?VarId=@variant.Id">Удалить</a>
+                <a class="color" href="/Home/BranchInput/?VarId=@variant.Id">Редактировать</a>
+            </td>
+        </tr>
+
+    }
+</table>

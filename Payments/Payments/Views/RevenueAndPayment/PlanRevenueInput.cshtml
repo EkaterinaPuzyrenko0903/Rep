@@ -1,0 +1,68 @@
+﻿@model HomePlanViewModel
+
+@{
+    ViewData["Title"] = "Расчет плановой выручки от продаж товаров и услуг";
+}
+
+<form action="/RevenueAndPayment/PlanRevenueInputResult" method="post">
+    Филиал код:
+    <input name="NumberBranch" value="@Model.Revenue?.NumberBranch" autocomplete="off" style="width: 100px;" />
+    Филиал название:
+    <input name="Name" value="@Model.Revenue?.Name" autocomplete="off" />
+    <label for="Month">Выберите месяц:</label>
+    <select id="Month" name="Month">
+        @{
+            var months = new[] { "Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь" };
+            var selectedMonth = Model.Revenue?.Month;
+        }
+        @foreach (var month in months)
+        {
+            if (month == selectedMonth)
+            {
+                <option value="@month" selected="selected">@month</option>
+            }
+            else
+            {
+                <option value="@month">@month</option>
+            }
+        }
+    </select>
+    Год:
+    <input name="Year" type="number" value="@Model.Revenue?.Year" autocomplete="off" style="width: 100px;" />
+    
+    Выручка,руб. :
+    <input name="Revenue" value="@Model.Revenue?.Revenue" autocomplete="off" />
+    <br />
+    <button type="submit">Добавить</button>
+</form>
+<br />
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>Филиал код</th>
+            <th>Филиал название</th>
+            <th>Месяц</th>
+            <th>Год</th>
+            <th>Выручка,руб.</th>
+        </tr>
+    </thead>
+    
+
+    @foreach (var variant in Model.Revenues)
+    {
+        <tr>
+            <td>@variant.NumberBranch</td>
+            <td>@variant.Name</td>
+            <td>@variant.Month</td>
+            <td>@variant.Year</td>
+            <td>@variant.Revenue.ToString("N2")</td>
+            <td>
+
+                <a class="color" href="/RevenueAndPayment/RemovePlanRevenue/?VarId=@variant.Id">Удалить</a>
+                <a class="color" href="/RevenueAndPayment/PlanRevenueInput/?VarId=@variant.Id">Редактировать</a>
+            </td>
+        </tr>
+
+    }
+</table>
+

@@ -1,0 +1,36 @@
+﻿@model List<UnpaidInv>
+@{
+    ViewData["Title"] = "Прогноз поступления денежных средств на основе данных о неоплаченных счетах";
+}
+
+
+
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>Филиал код</th>
+            <th>Филиал название</th>
+            <th>Код клиента</th>
+            <th>Номер документа</th>
+            <th>Дата документа</th>
+            <th>Вид документа</th>
+            <th>Условие платежа, дней</th>
+            <th>Сумма платежа, руб.</th>
+        </tr>
+    </thead>
+    
+    @foreach (var listpay in Model)
+    {
+        <tr>
+            <td>@listpay.IdKod</td>
+            <td>@listpay.Name</td>
+            <td>@listpay.KodClient</td>
+            <td>@listpay.NumberDoc</td>
+            <td>@listpay.DateDoc.ToString("dd.MM.yyyy")</td>
+            <td>@listpay.ViewDocInv</td>
+            <td>@listpay.ConditionPay</td>
+            <td>@listpay.Sum.ToString("N2")</td>
+        </tr>
+    }
+
+</table>

@@ -1,0 +1,35 @@
+﻿@model List<ForecastData>
+@{
+    ViewData["Title"] = "Прогноз будущих платежей";
+}
+
+
+
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>Филиал код</th>
+            <th>Филиал название</th>
+            <th>Код клиента</th>
+            <th>Номер платежа</th>
+            <th>Дата платежа</th>
+            <th>Условие платежа, дней</th>
+            <th>Сумма платежа, руб.</th>
+        </tr>
+    </thead>
+    
+    @foreach (var listpay in Model)
+    {
+        <tr>
+            <td>@listpay.IdKod</td>
+            <td>@listpay.Name</td>
+            <td>@listpay.KodClient</td>
+            <td>@listpay.NumberDoc</td>
+            <td>@listpay.DateDoc.ToString("dd.MM.yyyy")</td>
+            
+            <td>@listpay.ConditionPay</td>
+            <td>@listpay.Sum.ToString("N2")</td>
+        </tr>
+    }
+
+</table>

@@ -1,0 +1,25 @@
+﻿@model List<FinalForecast>
+@{
+    ViewData["Title"] = "Итоговый прогноз";
+}
+<table class="table table-bordered table-hover mt-3">
+    <thead>
+        <tr>
+            <th>Филиал код</th>
+            <th>Филиал название</th>
+            <th>Дата платежа</th>
+            <th>Сумма платежа, руб.</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var listpay in Model)
+        {
+            <tr>
+                <td>@listpay.NumberBranch</td>
+                <td>@listpay.Name</td>
+                <td>@listpay.Date.ToString("dd.MM.yyyy")</td>
+                <td>@listpay.FinalAmount.ToString("N2")</td>
+            </tr>
+        }
+    </tbody>
+</table>

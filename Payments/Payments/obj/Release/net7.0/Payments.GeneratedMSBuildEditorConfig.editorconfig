@@ -1,0 +1,109 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Payments
+build_property.RootNamespace = Payments
+build_property.ProjectDir = C:\Users\Admin\Desktop\Диплом\Payments\Payments\Payments\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Admin\Desktop\Диплом\Payments\Payments\Payments
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Admin/Desktop/Диплом/Payments/Payments/Payments/Views/Home/BranchInput.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCcmFuY2hJbnB1dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Диплом/Payments/Payments/Payments/Views/Home/CalculationCoeff.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYWxjdWxhdGlvbkNvZWZmLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Диплом/Payments/Payments/Payments/Views/Home/FinalForecast.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGaW5hbEZvcmVjYXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Диплом/Payments/Payments/Payments/Views/Home/ForecastDateResult.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGb3JlY2FzdERhdGVSZXN1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Диплом/Payments/Payments/Payments/Views/Home/ImportFromExcelIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbXBvcnRGcm9tRXhjZWxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Диплом/Payments/Payments/Payments/Views/Home/ImportFromExcelUnpaidInv.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbXBvcnRGcm9tRXhjZWxVbnBhaWRJbnYuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Диплом/Payments/Payments/Payments/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Диплом/Payments/Payments/Payments/Views/Home/PayCondInput.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXlDb25kSW5wdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Диплом/Payments/Payments/Payments/Views/Home/Result.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZXN1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Диплом/Payments/Payments/Payments/Views/Home/UnpaidInv.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVbnBhaWRJbnYuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Диплом/Payments/Payments/Payments/Views/Home/UnpaidInvResult.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVbnBhaWRJbnZSZXN1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Диплом/Payments/Payments/Payments/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Диплом/Payments/Payments/Payments/Views/RevenueAndPayment/CalculatedRevenue.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2ZW51ZUFuZFBheW1lbnRcQ2FsY3VsYXRlZFJldmVudWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Диплом/Payments/Payments/Payments/Views/RevenueAndPayment/Paying.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2ZW51ZUFuZFBheW1lbnRcUGF5aW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Диплом/Payments/Payments/Payments/Views/RevenueAndPayment/PaymentConditionInput.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2ZW51ZUFuZFBheW1lbnRcUGF5bWVudENvbmRpdGlvbklucHV0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Диплом/Payments/Payments/Payments/Views/RevenueAndPayment/PaymentForecast.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2ZW51ZUFuZFBheW1lbnRcUGF5bWVudEZvcmVjYXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Диплом/Payments/Payments/Payments/Views/RevenueAndPayment/PlanRevenueInput.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2ZW51ZUFuZFBheW1lbnRcUGxhblJldmVudWVJbnB1dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Диплом/Payments/Payments/Payments/Views/RevenueAndPayment/Proceeds.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2ZW51ZUFuZFBheW1lbnRcUHJvY2VlZHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Диплом/Payments/Payments/Payments/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Диплом/Payments/Payments/Payments/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Диплом/Payments/Payments/Payments/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Диплом/Payments/Payments/Payments/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Диплом/Payments/Payments/Payments/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-qaq9iw1xl4

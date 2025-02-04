@@ -1,0 +1,31 @@
+﻿@model List<Proceeds>
+
+@{
+    ViewData["Title"] = "Выручка";
+}
+
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>Код филиала</th>
+            <th>Название филиала</th>
+            <th>Месяц</th>
+            <th>Условие платежа, дней</th>
+            <th>Дата</th>
+            <th>Сумма, руб.</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var proceeds in Model)
+        {
+            <tr>
+                <td>@proceeds.NumberBranch</td>
+                <td>@proceeds.Name</td>
+                <td>@proceeds.Month</td>
+                <td>@proceeds.PaymentCondition</td>
+                <td>@proceeds.Date.ToString("dd.MM.yyyy")</td>
+                <td>@proceeds.Amount.ToString("N2")</td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Payments</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Payments.styles.css" asp-append-version="true" />
+    <style>
+        .nav-link.dropdown-toggle {
+            color: #000000; /* Черный цвет */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                @* <a class="navbar-brand" asp-area="" asp-controller="" asp-action="">Payments</a>*@
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        @if (User.Identity.IsAuthenticated)
+                        {                         
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" style="color: #000000;">Расчет коэффициентов</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="Index" >Исходные данные</a>
+                                    <a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="ImportFromExcelIndex" >Загрузка данных из excel-файла</a>
+                                    <a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="Result" >Расчет кол-ва дней до оплаты</a>
+                                    <a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="CalculationCoeff" >Расчет долевых коэффициентов</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" style="color: #000000;">Прогноз из неоплаченных счетов</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="UnpaidInv" data-method="get">Данные о неоплаченных счетах</a>
+                                    <a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="ImportFromExcelUnpaidInv" data-method="get">Загрузка данных из excel-файла</a>
+                                    <a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="UnpaidInvResult" data-method="post">Прогноз будущих платежей</a>
+                                    <a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="ForecastDateResult" data-method="get">Прогнозные даты платежей</a>
+                                </div>
+
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" style="color: #000000;">Прогноз из плановой выручки</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" asp-area="" asp-controller="RevenueAndPayment" asp-action="PaymentConditionInput">Введение условия платежа</a>
+                                    <div class="dropdown-submenu">
+                                        <a class="dropdown-item" asp-area="" asp-controller="RevenueAndPayment" asp-action="PlanRevenueInput">Планирование выручки</a>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" asp-area="" asp-controller="RevenueAndPayment" asp-action="CalculatedRevenue" data-method="post">Расчет выручки</a>
+                                            <a class="dropdown-item" asp-area="" asp-controller="RevenueAndPayment" asp-action="Proceeds" data-method="post">Выручка за месяц</a>
+                                            <a class="dropdown-item" asp-area="" asp-controller="RevenueAndPayment" asp-action="Paying" data-method="get">Оплаты из плановой выручки</a>
+                                            <a class="dropdown-item" asp-area="" asp-controller="RevenueAndPayment" asp-action="PaymentForecast" data-method="get">Прогноз оплат из плановой выручки</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" style="color: #000000;">Справочники</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="PayCondInput" data-method="get">Условия платежа</a>
+                                    <a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="BranchInput">Филиалы</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link text-black" asp-area="" asp-controller="Home" asp-action="FinalForecast" >Итоговый прогноз</a>
+                            </li>
+                            <li class="nav-item separator"></li> <!-- Разделитель -->
+                            <li class="nav-item">
+                                <span class="nav-link text-black">@User.Identity.Name</span>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-black" asp-area="" asp-controller="Login" asp-action="Logout">Выход</a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-black" asp-area="" asp-controller="Login" asp-action="Index">Авторизация</a>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+
+            2024-Пузыренко Е.М. Тема: Разработка программного обеспечения для прогнозирование поступления денежных средств от клиентов
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script>
+        $(document).ready(function () {
+            $('.dropdown-item').on('click', function (e) {
+                e.preventDefault();
+
+                var action = $(this).attr('href');
+                var method = $(this).data('method') || 'GET';
+
+                var form = $('<form action="' + action + '" method="' + method + '"></form>');
+                $('body').append(form);
+                form.submit();
+            });
+        });
+    </script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+
+</body>
+</html>
+

@@ -1,0 +1,36 @@
+﻿@model HomePlanViewModel
+@{
+    ViewData["Title"] = "Добавление условия платежа в справочник";
+}
+
+<form action="/Home/PayCondInputResult" method="post">
+    Код условия платежа:
+    <input name="NumberPayCond" type="number" value="@Model.PayConditionInputs?.NumberPayCond" autocomplete="off" />
+    Кол-во дней до оплаты, дней:
+    <input name="NamePayCond" type="text" value="@Model.PayConditionInputs?.NamePayCond" autocomplete="off" />
+    <button type="submit">Добавить</button>
+</form>
+<br />
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>Код условия платежа</th>
+            <th>Кол-во дней до оплаты, дней</th>
+        </tr>
+    </thead>
+    
+
+    @foreach (var variant in Model.PayConditionInputes)
+    {
+        <tr>
+            <td>@variant.NumberPayCond</td>
+            <td>@variant.NamePayCond</td>
+            <td>
+
+                <a class="color" href="/Home/RemovePayCond/?VarId=@variant.Id">Удалить</a>
+                <a class="color" href="/Home/PayCondInput/?VarId=@variant.Id">Редактировать</a>
+            </td>
+        </tr>
+
+    }
+</table>

@@ -1,0 +1,466 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\1.Main\\Payments\\Payments\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3415C4E9-D7AB-4198-B89C-9E8C16974136}|Payments\\Payments.csproj|d:\\1.main\\payments\\payments\\payments\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3415C4E9-D7AB-4198-B89C-9E8C16974136}|Payments\\Payments.csproj|solutionrelative:payments\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3415C4E9-D7AB-4198-B89C-9E8C16974136}|Payments\\Payments.csproj|d:\\1.main\\payments\\payments\\payments\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3415C4E9-D7AB-4198-B89C-9E8C16974136}|Payments\\Payments.csproj|solutionrelative:payments\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3415C4E9-D7AB-4198-B89C-9E8C16974136}|Payments\\Payments.csproj|d:\\1.main\\payments\\payments\\payments\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3415C4E9-D7AB-4198-B89C-9E8C16974136}|Payments\\Payments.csproj|solutionrelative:payments\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3415C4E9-D7AB-4198-B89C-9E8C16974136}|Payments\\Payments.csproj|d:\\1.main\\payments\\payments\\payments\\models\\datainvoicespay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3415C4E9-D7AB-4198-B89C-9E8C16974136}|Payments\\Payments.csproj|solutionrelative:payments\\models\\datainvoicespay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3415C4E9-D7AB-4198-B89C-9E8C16974136}|Payments\\Payments.csproj|d:\\1.main\\payments\\payments\\payments\\data\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3415C4E9-D7AB-4198-B89C-9E8C16974136}|Payments\\Payments.csproj|solutionrelative:payments\\data\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3415C4E9-D7AB-4198-B89C-9E8C16974136}|Payments\\Payments.csproj|d:\\1.main\\payments\\payments\\payments\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3415C4E9-D7AB-4198-B89C-9E8C16974136}|Payments\\Payments.csproj|solutionrelative:payments\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3415C4E9-D7AB-4198-B89C-9E8C16974136}|Payments\\Payments.csproj|d:\\1.main\\payments\\payments\\payments\\views\\home\\unpaidinvresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3415C4E9-D7AB-4198-B89C-9E8C16974136}|Payments\\Payments.csproj|solutionrelative:payments\\views\\home\\unpaidinvresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3415C4E9-D7AB-4198-B89C-9E8C16974136}|Payments\\Payments.csproj|d:\\1.main\\payments\\payments\\payments\\views\\home\\result.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3415C4E9-D7AB-4198-B89C-9E8C16974136}|Payments\\Payments.csproj|solutionrelative:payments\\views\\home\\result.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3415C4E9-D7AB-4198-B89C-9E8C16974136}|Payments\\Payments.csproj|d:\\1.main\\payments\\payments\\payments\\models\\unpaidinv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3415C4E9-D7AB-4198-B89C-9E8C16974136}|Payments\\Payments.csproj|solutionrelative:payments\\models\\unpaidinv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3415C4E9-D7AB-4198-B89C-9E8C16974136}|Payments\\Payments.csproj|d:\\1.main\\payments\\payments\\payments\\views\\home\\forecastdateresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3415C4E9-D7AB-4198-B89C-9E8C16974136}|Payments\\Payments.csproj|solutionrelative:payments\\views\\home\\forecastdateresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3415C4E9-D7AB-4198-B89C-9E8C16974136}|Payments\\Payments.csproj|d:\\1.main\\payments\\payments\\payments\\views\\home\\unpaidinv.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3415C4E9-D7AB-4198-B89C-9E8C16974136}|Payments\\Payments.csproj|solutionrelative:payments\\views\\home\\unpaidinv.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3415C4E9-D7AB-4198-B89C-9E8C16974136}|Payments\\Payments.csproj|d:\\1.main\\payments\\payments\\payments\\models\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3415C4E9-D7AB-4198-B89C-9E8C16974136}|Payments\\Payments.csproj|solutionrelative:payments\\models\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3415C4E9-D7AB-4198-B89C-9E8C16974136}|Payments\\Payments.csproj|d:\\1.main\\payments\\payments\\payments\\views\\home\\forecastdate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3415C4E9-D7AB-4198-B89C-9E8C16974136}|Payments\\Payments.csproj|solutionrelative:payments\\views\\home\\forecastdate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3415C4E9-D7AB-4198-B89C-9E8C16974136}|Payments\\Payments.csproj|d:\\1.main\\payments\\payments\\payments\\views\\home\\importfromexcel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3415C4E9-D7AB-4198-B89C-9E8C16974136}|Payments\\Payments.csproj|solutionrelative:payments\\views\\home\\importfromexcel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3415C4E9-D7AB-4198-B89C-9E8C16974136}|Payments\\Payments.csproj|d:\\1.main\\payments\\payments\\payments\\models\\importviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3415C4E9-D7AB-4198-B89C-9E8C16974136}|Payments\\Payments.csproj|solutionrelative:payments\\models\\importviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3415C4E9-D7AB-4198-B89C-9E8C16974136}|Payments\\Payments.csproj|d:\\1.main\\payments\\payments\\payments\\payments.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3415C4E9-D7AB-4198-B89C-9E8C16974136}|Payments\\Payments.csproj|solutionrelative:payments\\payments.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3415C4E9-D7AB-4198-B89C-9E8C16974136}|Payments\\Payments.csproj|d:\\1.main\\payments\\payments\\payments\\models\\dataviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3415C4E9-D7AB-4198-B89C-9E8C16974136}|Payments\\Payments.csproj|solutionrelative:payments\\models\\dataviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3415C4E9-D7AB-4198-B89C-9E8C16974136}|Payments\\Payments.csproj|d:\\1.main\\payments\\payments\\payments\\migrations\\20240416152724_addbranchestable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3415C4E9-D7AB-4198-B89C-9E8C16974136}|Payments\\Payments.csproj|solutionrelative:payments\\migrations\\20240416152724_addbranchestable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3415C4E9-D7AB-4198-B89C-9E8C16974136}|Payments\\Payments.csproj|d:\\1.main\\payments\\payments\\payments\\views\\home\\calculationcoeff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3415C4E9-D7AB-4198-B89C-9E8C16974136}|Payments\\Payments.csproj|solutionrelative:payments\\views\\home\\calculationcoeff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3415C4E9-D7AB-4198-B89C-9E8C16974136}|Payments\\Payments.csproj|d:\\1.main\\payments\\payments\\payments\\models\\forecastviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3415C4E9-D7AB-4198-B89C-9E8C16974136}|Payments\\Payments.csproj|solutionrelative:payments\\models\\forecastviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3415C4E9-D7AB-4198-B89C-9E8C16974136}|Payments\\Payments.csproj|d:\\1.main\\payments\\payments\\payments\\models\\forecastdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3415C4E9-D7AB-4198-B89C-9E8C16974136}|Payments\\Payments.csproj|solutionrelative:payments\\models\\forecastdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3415C4E9-D7AB-4198-B89C-9E8C16974136}|Payments\\Payments.csproj|d:\\1.main\\payments\\payments\\payments\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3415C4E9-D7AB-4198-B89C-9E8C16974136}|Payments\\Payments.csproj|solutionrelative:payments\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3415C4E9-D7AB-4198-B89C-9E8C16974136}|Payments\\Payments.csproj|d:\\1.main\\payments\\payments\\payments\\models\\coeff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3415C4E9-D7AB-4198-B89C-9E8C16974136}|Payments\\Payments.csproj|solutionrelative:payments\\models\\coeff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3415C4E9-D7AB-4198-B89C-9E8C16974136}|Payments\\Payments.csproj|d:\\1.main\\payments\\payments\\payments\\migrations\\20240409071133_test12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3415C4E9-D7AB-4198-B89C-9E8C16974136}|Payments\\Payments.csproj|solutionrelative:payments\\migrations\\20240409071133_test12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3415C4E9-D7AB-4198-B89C-9E8C16974136}|Payments\\Payments.csproj|d:\\1.main\\payments\\payments\\payments\\migrations\\20240409065747_test11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3415C4E9-D7AB-4198-B89C-9E8C16974136}|Payments\\Payments.csproj|solutionrelative:payments\\migrations\\20240409065747_test11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3415C4E9-D7AB-4198-B89C-9E8C16974136}|Payments\\Payments.csproj|d:\\1.main\\payments\\payments\\payments\\migrations\\20240411043220_test13.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3415C4E9-D7AB-4198-B89C-9E8C16974136}|Payments\\Payments.csproj|solutionrelative:payments\\migrations\\20240411043220_test13.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 296,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\1.Main\\Payments\\Payments\\Payments\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Payments\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\1.Main\\Payments\\Payments\\Payments\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Payments\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-04T10:24:18.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\1.Main\\Payments\\Payments\\Payments\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Payments\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\1.Main\\Payments\\Payments\\Payments\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Payments\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAI4AAAAAAAAAAAAAAJsAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T09:31:40.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\1.Main\\Payments\\Payments\\Payments\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Payments\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\1.Main\\Payments\\Payments\\Payments\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Payments\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-04T10:08:51.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ForecastDateResult.cshtml",
+              "DocumentMoniker": "D:\\1.Main\\Payments\\Payments\\Payments\\Views\\Home\\ForecastDateResult.cshtml",
+              "RelativeDocumentMoniker": "Payments\\Views\\Home\\ForecastDateResult.cshtml",
+              "ToolTip": "D:\\1.Main\\Payments\\Payments\\Payments\\Views\\Home\\ForecastDateResult.cshtml",
+              "RelativeToolTip": "Payments\\Views\\Home\\ForecastDateResult.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-04T09:31:40.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationContext.cs",
+              "DocumentMoniker": "D:\\1.Main\\Payments\\Payments\\Payments\\Data\\ApplicationContext.cs",
+              "RelativeDocumentMoniker": "Payments\\Data\\ApplicationContext.cs",
+              "ToolTip": "D:\\1.Main\\Payments\\Payments\\Payments\\Data\\ApplicationContext.cs",
+              "RelativeToolTip": "Payments\\Data\\ApplicationContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T09:31:40.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ImportFromExcel.cshtml",
+              "DocumentMoniker": "D:\\1.Main\\Payments\\Payments\\Payments\\Views\\Home\\ImportFromExcel.cshtml",
+              "RelativeDocumentMoniker": "Payments\\Views\\Home\\ImportFromExcel.cshtml",
+              "ToolTip": "D:\\1.Main\\Payments\\Payments\\Payments\\Views\\Home\\ImportFromExcel.cshtml",
+              "RelativeToolTip": "Payments\\Views\\Home\\ImportFromExcel.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-04T09:31:40.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ForecastDate.cshtml",
+              "DocumentMoniker": "D:\\1.Main\\Payments\\Payments\\Payments\\Views\\Home\\ForecastDate.cshtml",
+              "RelativeDocumentMoniker": "Payments\\Views\\Home\\ForecastDate.cshtml",
+              "ToolTip": "D:\\1.Main\\Payments\\Payments\\Payments\\Views\\Home\\ForecastDate.cshtml",
+              "RelativeToolTip": "Payments\\Views\\Home\\ForecastDate.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-04T09:31:40.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataInvoicesPay.cs",
+              "DocumentMoniker": "D:\\1.Main\\Payments\\Payments\\Payments\\Models\\DataInvoicesPay.cs",
+              "RelativeDocumentMoniker": "Payments\\Models\\DataInvoicesPay.cs",
+              "ToolTip": "D:\\1.Main\\Payments\\Payments\\Payments\\Models\\DataInvoicesPay.cs",
+              "RelativeToolTip": "Payments\\Models\\DataInvoicesPay.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T09:31:40.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\1.Main\\Payments\\Payments\\Payments\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Payments\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\1.Main\\Payments\\Payments\\Payments\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Payments\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-04T09:31:40.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Result.cshtml",
+              "DocumentMoniker": "D:\\1.Main\\Payments\\Payments\\Payments\\Views\\Home\\Result.cshtml",
+              "RelativeDocumentMoniker": "Payments\\Views\\Home\\Result.cshtml",
+              "ToolTip": "D:\\1.Main\\Payments\\Payments\\Payments\\Views\\Home\\Result.cshtml",
+              "RelativeToolTip": "Payments\\Views\\Home\\Result.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwBkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-04T09:31:40.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Branch.cs",
+              "DocumentMoniker": "D:\\1.Main\\Payments\\Payments\\Payments\\Models\\Branch.cs",
+              "RelativeDocumentMoniker": "Payments\\Models\\Branch.cs",
+              "ToolTip": "D:\\1.Main\\Payments\\Payments\\Payments\\Models\\Branch.cs",
+              "RelativeToolTip": "Payments\\Models\\Branch.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T09:31:40.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UnpaidInv.cs",
+              "DocumentMoniker": "D:\\1.Main\\Payments\\Payments\\Payments\\Models\\UnpaidInv.cs",
+              "RelativeDocumentMoniker": "Payments\\Models\\UnpaidInv.cs",
+              "ToolTip": "D:\\1.Main\\Payments\\Payments\\Payments\\Models\\UnpaidInv.cs",
+              "RelativeToolTip": "Payments\\Models\\UnpaidInv.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T09:31:40.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UnpaidInvResult.cshtml",
+              "DocumentMoniker": "D:\\1.Main\\Payments\\Payments\\Payments\\Views\\Home\\UnpaidInvResult.cshtml",
+              "RelativeDocumentMoniker": "Payments\\Views\\Home\\UnpaidInvResult.cshtml",
+              "ToolTip": "D:\\1.Main\\Payments\\Payments\\Payments\\Views\\Home\\UnpaidInvResult.cshtml",
+              "RelativeToolTip": "Payments\\Views\\Home\\UnpaidInvResult.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-04T09:31:40.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UnpaidInv.cshtml",
+              "DocumentMoniker": "D:\\1.Main\\Payments\\Payments\\Payments\\Views\\Home\\UnpaidInv.cshtml",
+              "RelativeDocumentMoniker": "Payments\\Views\\Home\\UnpaidInv.cshtml",
+              "ToolTip": "D:\\1.Main\\Payments\\Payments\\Payments\\Views\\Home\\UnpaidInv.cshtml",
+              "RelativeToolTip": "Payments\\Views\\Home\\UnpaidInv.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-04T09:31:40.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ImportViewModel.cs",
+              "DocumentMoniker": "D:\\1.Main\\Payments\\Payments\\Payments\\Models\\ImportViewModel.cs",
+              "RelativeDocumentMoniker": "Payments\\Models\\ImportViewModel.cs",
+              "ToolTip": "D:\\1.Main\\Payments\\Payments\\Payments\\Models\\ImportViewModel.cs",
+              "RelativeToolTip": "Payments\\Models\\ImportViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T09:31:40.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DataViewModel.cs",
+              "DocumentMoniker": "D:\\1.Main\\Payments\\Payments\\Payments\\Models\\DataViewModel.cs",
+              "RelativeDocumentMoniker": "Payments\\Models\\DataViewModel.cs",
+              "ToolTip": "D:\\1.Main\\Payments\\Payments\\Payments\\Models\\DataViewModel.cs",
+              "RelativeToolTip": "Payments\\Models\\DataViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T09:31:40.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Payments.csproj",
+              "DocumentMoniker": "D:\\1.Main\\Payments\\Payments\\Payments\\Payments.csproj",
+              "RelativeDocumentMoniker": "Payments\\Payments.csproj",
+              "ToolTip": "D:\\1.Main\\Payments\\Payments\\Payments\\Payments.csproj",
+              "RelativeToolTip": "Payments\\Payments.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-04T09:31:40.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20240416152724_AddBranchesTable.cs",
+              "DocumentMoniker": "D:\\1.Main\\Payments\\Payments\\Payments\\Migrations\\20240416152724_AddBranchesTable.cs",
+              "RelativeDocumentMoniker": "Payments\\Migrations\\20240416152724_AddBranchesTable.cs",
+              "ToolTip": "D:\\1.Main\\Payments\\Payments\\Payments\\Migrations\\20240416152724_AddBranchesTable.cs",
+              "RelativeToolTip": "Payments\\Migrations\\20240416152724_AddBranchesTable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T09:31:40.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ForecastViewModel.cs",
+              "DocumentMoniker": "D:\\1.Main\\Payments\\Payments\\Payments\\Models\\ForecastViewModel.cs",
+              "RelativeDocumentMoniker": "Payments\\Models\\ForecastViewModel.cs",
+              "ToolTip": "D:\\1.Main\\Payments\\Payments\\Payments\\Models\\ForecastViewModel.cs",
+              "RelativeToolTip": "Payments\\Models\\ForecastViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T09:31:40.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CalculationCoeff.cshtml",
+              "DocumentMoniker": "D:\\1.Main\\Payments\\Payments\\Payments\\Views\\Home\\CalculationCoeff.cshtml",
+              "RelativeDocumentMoniker": "Payments\\Views\\Home\\CalculationCoeff.cshtml",
+              "ToolTip": "D:\\1.Main\\Payments\\Payments\\Payments\\Views\\Home\\CalculationCoeff.cshtml",
+              "RelativeToolTip": "Payments\\Views\\Home\\CalculationCoeff.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-04T09:31:40.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ForecastData.cs",
+              "DocumentMoniker": "D:\\1.Main\\Payments\\Payments\\Payments\\Models\\ForecastData.cs",
+              "RelativeDocumentMoniker": "Payments\\Models\\ForecastData.cs",
+              "ToolTip": "D:\\1.Main\\Payments\\Payments\\Payments\\Models\\ForecastData.cs",
+              "RelativeToolTip": "Payments\\Models\\ForecastData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T09:31:40.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\1.Main\\Payments\\Payments\\Payments\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Payments\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\1.Main\\Payments\\Payments\\Payments\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Payments\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-04T09:31:40.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20240411043220_test13.cs",
+              "DocumentMoniker": "D:\\1.Main\\Payments\\Payments\\Payments\\Migrations\\20240411043220_test13.cs",
+              "RelativeDocumentMoniker": "Payments\\Migrations\\20240411043220_test13.cs",
+              "ToolTip": "D:\\1.Main\\Payments\\Payments\\Payments\\Migrations\\20240411043220_test13.cs",
+              "RelativeToolTip": "Payments\\Migrations\\20240411043220_test13.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T09:31:40.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "20240409071133_test12.cs",
+              "DocumentMoniker": "D:\\1.Main\\Payments\\Payments\\Payments\\Migrations\\20240409071133_test12.cs",
+              "RelativeDocumentMoniker": "Payments\\Migrations\\20240409071133_test12.cs",
+              "ToolTip": "D:\\1.Main\\Payments\\Payments\\Payments\\Migrations\\20240409071133_test12.cs",
+              "RelativeToolTip": "Payments\\Migrations\\20240409071133_test12.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T09:31:40.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "20240409065747_test11.cs",
+              "DocumentMoniker": "D:\\1.Main\\Payments\\Payments\\Payments\\Migrations\\20240409065747_test11.cs",
+              "RelativeDocumentMoniker": "Payments\\Migrations\\20240409065747_test11.cs",
+              "ToolTip": "D:\\1.Main\\Payments\\Payments\\Payments\\Migrations\\20240409065747_test11.cs",
+              "RelativeToolTip": "Payments\\Migrations\\20240409065747_test11.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T09:31:40.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Coeff.cs",
+              "DocumentMoniker": "D:\\1.Main\\Payments\\Payments\\Payments\\Models\\Coeff.cs",
+              "RelativeDocumentMoniker": "Payments\\Models\\Coeff.cs",
+              "ToolTip": "D:\\1.Main\\Payments\\Payments\\Payments\\Models\\Coeff.cs",
+              "RelativeToolTip": "Payments\\Models\\Coeff.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T09:31:40.903Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

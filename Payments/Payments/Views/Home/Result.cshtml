@@ -1,0 +1,48 @@
+﻿@model IEnumerable<DataInvoicesPay>
+@{
+    ViewData["Title"] = "Расчет количества дней до оплаты";
+}
+
+
+    <table  class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th>Код филиала</th>
+                <th>Филиал</th>
+                <th>Код клиента</th>
+                <th>Номер счета</th>
+                <th>Дата счета</th>
+                <th>Вид док счета</th>
+                <th>Условие платежа, дней</th>
+                <th>Номер док платежа</th>
+                <th>Дата док платежа</th>
+                <th>Вид док платежа</th>
+                <th>Кол-во дней до оплаты</th>
+                <th>Сумма счета, руб.</th>
+                <th>Сумма платежа, руб.</th>
+                <th>Сумма платежа к счету, руб.</th>
+            </tr>
+        </thead>
+    @foreach (var listpay in Model)
+    {
+        <tr>
+            <td>@listpay.Kod</td>
+            <td>@listpay.Name</td>
+            <td>@listpay.IdClient</td>
+            <td>@listpay.IdScore</td>
+            <td>@listpay.DateScore.ToString("dd.MM.yyyy")</td>
+            <td>@listpay.ViewScore</td>
+            <td>@listpay.payCondition</td>
+            <td>@listpay.IdPayment</td>
+            <td>@listpay.DatePayment.ToString("dd.MM.yyyy")</td>
+            <td>@listpay.ViewPayment</td>
+            <td>@listpay.DayPay</td>
+            <td>@listpay.SumScore.ToString("N2")</td>
+            <td>@listpay.SumPayment.ToString("N2")</td>
+            <td>@listpay.Sum.ToString("N2")</td>
+        </tr>
+    }
+    </table>
+
+
+

@@ -1,0 +1,77 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+.dws-menu ul,
+.dws-menu ol {
+    list-style: none;
+}
+.dws-menu > ul {
+    display: flex;
+    justify-content: center;
+}
+    .dws-menu > ul li {
+        position: relative;
+    }
+
+.vertical-menu {
+    width: 200px; /* Установите ширину, если хотите */
+}
+
+    .vertical-menu a {
+        background-color: #eee; /* Серый цвет фона */
+        color: black; /* Черный цвет текста */
+        display: block; /* Сделайте так, чтобы ссылки располагались друг под другом */
+        padding: 12px; /* Добавить немного отступа */
+        text-decoration: none; /* Удалить подчеркивание из ссылок */
+    }
+
+        .vertical-menu a:hover {
+            background-color: #ccc; /* Темно-серый фон на наведении курсора мыши */
+        }
+
+        .vertical-menu a.active {
+            background-color: #4CAF50; /* Добавить зеленый цвет "активная/текущая" ссылки */
+            color: white;
+        }
+.separator {
+    /* Линия-разделитель */
+    width: 60px; /* Ширина разделителя */
+    height: 20px; /* Высота разделителя */
+    margin: 0 60px; /* Отступы по бокам разделителя */
+}
+/* Стили для вложенного выпадающего меню */
+.dropdown-submenu {
+    position: relative;
+}
+
+    .dropdown-submenu .dropdown-menu {
+        top: 0;
+        left: 100%;
+        margin-top: -1px;
+        display: none;  Скрыть подменю по умолчанию 
+    }
+
+    .dropdown-submenu:hover .dropdown-menu {
+        display: block;
+    }
+/* Payments.styles.css или site.css */
+.nav-link.dropdown-toggle {
+    color: #000000; /* Черный цвет */
+}
+
+

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Payments", "Payments\Payments.csproj", "{3415C4E9-D7AB-4198-B89C-9E8C16974136}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library", "Library\Library.csproj", "{F39B4215-0DA2-4E7B-8C91-C200BF30A73C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3415C4E9-D7AB-4198-B89C-9E8C16974136}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3415C4E9-D7AB-4198-B89C-9E8C16974136}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3415C4E9-D7AB-4198-B89C-9E8C16974136}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3415C4E9-D7AB-4198-B89C-9E8C16974136}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F39B4215-0DA2-4E7B-8C91-C200BF30A73C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F39B4215-0DA2-4E7B-8C91-C200BF30A73C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F39B4215-0DA2-4E7B-8C91-C200BF30A73C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F39B4215-0DA2-4E7B-8C91-C200BF30A73C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5660146B-B728-4209-AA25-3584EBAB35AB}
+	EndGlobalSection
+EndGlobal

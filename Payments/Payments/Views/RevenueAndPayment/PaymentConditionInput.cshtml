@@ -1,0 +1,81 @@
+﻿@model HomePlanViewModel
+@{
+    ViewData["Title"] = "Расчет плановой выручки от продаж товаров и услуг";
+}
+<form action="/RevenueAndPayment/PaymentConditionInputResult" method="post">
+    Филиал код:
+    <input name="NumberBranch" value="@Model.Condition?.NumberBranch" autocomplete="off" />
+    Филиал название:
+    <input name="Name" value="@Model.Condition?.Name" autocomplete="off" />
+    Условие платежа:
+    <input name="PayCondition" value="@Model.Condition?.PayCondition" autocomplete="off" />
+    Доля,% :
+    <input name="Share" value="@Model.Condition?.Share" autocomplete="off" />
+
+    <button type="submit">Добавить</button>
+</form>
+<br />
+
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>Филиал код</th>
+            <th>Филиал название</th>
+            <th>Условие платежа, дней</th>
+            <th>Доля,% </th>
+        </tr>
+    </thead>
+    
+
+    @foreach (var variant in Model.PaymentConditions)
+    {
+        <tr>
+            <td>@variant.NumberBranch</td>
+            <td>@variant.Name</td>
+            <td>@variant.PayCondition</td>
+            <td>@variant.Share.ToString("N2")</td>
+            <td>
+                <a class="color" href="/RevenueAndPayment/RemovePaymentCondition/?VarId=@variant.Id">Удалить</a>
+                <a class="color" href="/RevenueAndPayment/PaymentConditionInput/?VarId=@variant.Id">Редактировать</a>
+            </td>
+        </tr>
+
+    }
+</table>
+
+
+<script>
+    // Функция для обновления данных на странице CalculatedRevenue
+    function updateCalculatedRevenue() {
+        $.ajax({
+            url: '@Url.Action("CalculatedRevenue", "RevenueAndPayment")', // Замените YourControllerName на имя вашего контроллера
+            method: 'POST', // Используйте метод POST или GET в зависимости от вашей логики
+            success: function (data) {
+                // Обновление данных на странице CalculatedRevenue
+                $('#dynamicContent').html(data);
+            },
+            error: function () {
+                alert('An error occurred while fetching the data.');
+            }
+        });
+    }
+ 
+
+    // AJAX-запрос при успешном сохранении данных на странице PaymentConditionInput
+    function savePaymentConditionInput() {
+        $.ajax({
+            url: '@Url.Action("PaymentConditionInputResult", "RevenueAndPayment")',
+            method: 'POST',
+            data: $('#payInput').serialize(),
+            success: function () {
+                // После успешного сохранения данных вызываем функцию обновления на странице CalculatedRevenue
+                updateCalculatedRevenue();
+                updatePaymentsFromPlanRevenue(); // Добавляем эту строку
+            },
+            error: function () {
+                alert('An error occurred while saving the data.');
+            }
+        });
+    }
+    
+</script>

@@ -1,0 +1,32 @@
+﻿@model List<CalculatedRevenueViewModel>
+@{
+    ViewData["Title"] = "Расчет выручки";
+}
+
+
+<table class="table table-bordered table-hover" >
+    <thead>
+        <tr>
+            <th>Филиал код</th>
+            <th>Филиал название</th>
+            <th>Месяц</th>
+            <th>Год</th>
+            <th>Условие платежа, дней</th>
+            <th>Выручка, руб.</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.NumberBranch</td>
+                <td>@item.Name</td>
+                <td>@item.Month</td>
+                <td>@item.Year</td>
+                <td>@item.PaymentCondition</td>
+                <td>@item.RevenueRes.ToString("N2")</td>
+            </tr>
+        }
+    </tbody>
+</table>
+

@@ -1,0 +1,19 @@
+﻿@model ImportViewModel
+@{
+    ViewData["Title"] = "Импорт Excel файла";
+}
+
+<h2>Загрузка Excel файла</h2>
+
+<form asp-action="ImportFromExcelIndex" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label for="file">Выберите файл Excel:</label>
+        <input type="file" name="file" id="file" class="form-control-file" accept=".xlsx, .xls" required />
+        <span asp-validation-for="file" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Импорт</button>
+</form>
+@if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+{
+    <div class="alert alert-danger">@ViewBag.ErrorMessage</div>
+}

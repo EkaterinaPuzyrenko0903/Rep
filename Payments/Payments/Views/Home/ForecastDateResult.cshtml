@@ -1,0 +1,50 @@
+﻿@model List<ForecastViewModel>
+@{
+    ViewData["Title"] = "Прогнозные даты платежей";
+}
+
+<form asp-controller="Home" asp-action="ForecastDateResult" method="get">
+    <div class="form-group">
+        <label for="branchIds">Выберите филиалы:</label>
+        <select class="form-select" multiple size="2" name="branchIds" id="branchIds">
+            @if (ViewBag.Branches != null)
+            {
+                @foreach (var branch in ViewBag.Branches)
+                {
+                    <option value="@branch.NumberBranch">@branch.NameBranch</option>
+                }
+            }
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Применить фильтр</button>
+</form>
+
+<a href="/Home/ExporttoExcel">Экспорт в Excel</a>
+
+<table class="table table-bordered table-hover mt-3">
+    <thead>
+        <tr>
+            <th>Филиал код</th>
+            <th>Филиал название</th>
+            <th>Дата платежа</th>
+            <th>Сумма платежа, руб.</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null)
+        {
+            @foreach (var listpay in Model)
+            {
+                <tr>
+                    <td>@listpay.IdKod</td>
+                    <td>@listpay.Name</td>
+                    <td>@listpay.DateDoc.ToString("dd.MM.yyyy")</td>
+                    <td>@listpay.Sum.ToString("N2")</td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+
+
+

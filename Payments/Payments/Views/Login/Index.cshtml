@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewData["Title"] = "Авторизация";
+}
+<h1>Авторизация</h1>
+@if (ViewData.ModelState.Any(x => x.Value.Errors.Count > 0))
+{
+    <div style="color: red;">
+        @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+        {
+            <p>@error.ErrorMessage</p>
+        }
+    </div>
+}
+<form action="/Login/" method="post">
+   
+ 
+    <div style="width: 100px; height: 31px; border-radius: 7px">Логин:</div>
+    <input style="width: 200px; height: 31px; border-radius: 7px"  name="Email" autocomplete="off" data-val="true" />
+
+    <div style="width: 100px; height: 31px; border-radius: 7px">Пароль:</div>
+    <input style="width: 200px; height: 31px; border-radius: 7px" type="password" name="Password" autocomplete="off" data-val="true" />
+
+    <button style="width: 100px; height: 31px; border-radius: 7px;"  type="submit">Войти</button>
+</form>
+
+
+
+

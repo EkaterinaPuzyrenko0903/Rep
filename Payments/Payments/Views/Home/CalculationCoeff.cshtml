@@ -1,0 +1,29 @@
+﻿@model IEnumerable<Coeff>
+@{
+    ViewData["Title"] = "Расчет коэффициента";
+}
+
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>Код филиала</th>
+            <th>Название филиала</th>
+            <th>Кол-во дней до оплаты</th>
+            <th>Условие платежа, дней</th>
+            <th>Доля,%</th>
+        </tr>
+    </thead>
+    
+
+    @foreach (var row in Model)
+    {
+        <tr>
+            <td>@row.Kod</td>
+            <td>@row.Name</td>
+            <td>@row.DayPay</td>
+            <td>@row.PayCondition</td>
+            <td>@row.SumPayment.ToString("P")</td>
+        </tr>
+  
+          }
+</table>
